@@ -1,0 +1,102 @@
+body{
+    background-color:dimgrey;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    padding-left: 0%;
+    margin: 0;  
+}
+.container ul{
+    text-decoration: none;
+    list-style: none;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40%;
+    align-items: flex-end;
+}
+.container li{
+    border: 0%;
+    padding-right: 20%;
+    padding-bottom: 15%;
+   
+}
+.container li a{
+    padding-left: 60%;
+    text-align:center ;
+    text-decoration: none;
+    color:white;
+}
+.hover-link {
+    color: #3498db; /* Default text color for the link */
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+/* Styles for the link when hovered */
+.hover-link:hover {
+    color: #e74c3c; /* Text color when hovered */
+    font-weight: bold; /* Make the text bold when hovered */
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+.shape{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.blue{
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.round{
+    width: 80px; /* Set the width of the rectangle */
+    height: 40px; /* Set the height of the rectangle */
+    background-color: aqua; /* Background color for the rectangle */
+    border-radius: 10px; /* Apply rounded corners by setting the border-radius property */
+}
+.hello h1{
+    color: white;
+    font-size: 40px;
+    line-height: 0%;
+}
+.hello h2{
+    color: white;
+    font-size: 20px;
+}
+.dp{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+/* Style for the circle */
+.Circle {
+    width: 300px; /* Set the width and height to create a circle */
+    height: 300px;
+    border-color: black;
+    border-width: 5pt;
+    background-color: black; /* Background color for the circle */
+    border-radius: 100%; /* Make the div a circle by using a border radius of 50% */
+    
+}
+.circle {
+    width: 200px; /* Set the width and height to create a circle */
+    height: 200px;
+    border-color: black;
+    border-width: 5pt;
+    background-color: white; /* Background color for the circle */
+    border-radius: 50%; /* Make the div a circle by using a border radius of 50% */
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.circle img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
